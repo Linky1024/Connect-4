@@ -164,7 +164,7 @@ int main(){
         }
         cout << endl;
         for (int o = 0; o < 1;){
-            cout << "Would you like to continue? Y/N" << endl;
+            cout << "Would you like to play again? Y/N" << endl;
             cin >> input;
             if (input == "Y" || input == "N"){
                 o++;
