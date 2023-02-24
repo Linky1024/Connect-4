@@ -80,7 +80,7 @@ int main(){
         for (int j = 0; j < 1;){
             cout << "Okay, can Player " + to_string(i + 1) + " also please enter what skin they would like? (Any single character that hasn't been chosen will do)" << endl;
             cin >> input;
-            if (input.length() == 1){
+            if (input.length() == 1 && input[0] != '_'){
                 j++;
             }
             for (Player p : players){
